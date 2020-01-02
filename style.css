@@ -69,9 +69,7 @@ img {
     font-style: normal;
 }
 
-.placeholder {
-    background-color: #8ecd89;
-}
+
 
 
 
@@ -167,7 +165,11 @@ h2 {
 #responsive,
 #dataindsamling,
 #prototype,
-#designsprint a {
+#designsprint,
+#animation,
+#privatsnak,
+#pilotvideo,
+#redesign a {
     text-align: center;
     display: block;
     color: #ffffff;
@@ -230,6 +232,90 @@ h2 {
 }
 
 #designsprint h2 {
+    align-content: center;
+    display: block;
+    padding: 20vw 0vw 0vw 0vw;
+    color: #ffffff;
+}
+
+.opgaver #animation {
+    background-image: url(img/animation.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#animation a:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+#animation h2 {
+    align-content: center;
+    display: block;
+    padding: 20vw 0vw 0vw 0vw;
+    color: #ffffff;
+}
+
+.opgaver #privatsnak {
+    background-image: url(img/privatsnak.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#privatsnak a:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+#privatsnak h2 {
+    align-content: center;
+    display: block;
+    padding: 20vw 0vw 0vw 0vw;
+    color: #ffffff;
+}
+
+.opgaver #pilotvideo {
+    background-image: url(img/pilotvideo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#pilotvideo a:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+#pilotvideo h2 {
+    align-content: center;
+    display: block;
+    padding: 20vw 0vw 0vw 0vw;
+    color: #ffffff;
+}
+
+.opgaver #redesign {
+    background-image: url(img/redesign.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#redesign a:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+#redesign h2 {
     align-content: center;
     display: block;
     padding: 20vw 0vw 0vw 0vw;
