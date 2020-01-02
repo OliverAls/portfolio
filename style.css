@@ -1,7 +1,9 @@
 /*-------------------------------------------------------------
 1: GENERELT
 2: MENU
-3: FORSIDE
+3: TEKSTDESIGN
+4: FORSIDE
+5: PORTFOLIO
 -------------------------------------------------------------*/
 
 
@@ -14,9 +16,21 @@
 
 * {
     scroll-behavior: smooth;
+
+}
+
+body {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #8ecd89;
+
+
+}
+
+img {
+    width: 100%
 }
 
 @font-face {
@@ -75,41 +89,82 @@ a {
     margin: 20px;
     color: white;
 
-
-
 }
 
 
 /*-------------------------------------------------------------
-3: FORSIDE
+3: TEKSTDESIGN
 -------------------------------------------------------------*/
 
 
-
-
-.forside {
-    border: dotted 2px black;
-    padding: 10vw 23vw 23vw 23vw;
-    z-index: -1;
-    background-color: #8ecd89;
-
-}
-
-.forside img {
-    height: 10vw;
-    width: 10vw;
-    ;
-    z-index: 1000;
-    background-repeat: no-repeat;
-}
-
-.forside h1 {
+h1 {
     font-family: 'Gilroy';
     font-weight: 900;
     font-size: 16vw;
     letter-spacing: -1vw;
-    margin: 0;
     color: white;
     line-height: 13vw;
     margin: 0;
     padding: 0;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-size: 8vw;
+    letter-spacing: -1vw;
+    color: white;
+    line-height: 13vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------
+4: FORSIDE
+-------------------------------------------------------------*/
+
+.forside {
+    border: solid white 5px;
+    margin: 3vw;
+    padding: 10vw;
+
+
+}
+
+/*-------------------------------------------------------------
+5: PORTFOLIO
+-------------------------------------------------------------*/
+
+.opgaver #responsive {
+    background-image: url(img/bauhausimac.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#responsive h2 {
+    align-content: center;
+    display: block;
+    padding: 20vw 0vw 0vw 0vw;
+    color: #ffffff;
+}
+
+#responsive a {
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+#responsive a:hover {
+    color: #444;
+    cursor: pointer;
+}
