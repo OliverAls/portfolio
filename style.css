@@ -156,7 +156,18 @@ h2 {
     color: #ffffff;
 }
 
-#responsive a {
+
+#dataindsamling h2 {
+    align-content: center;
+    display: block;
+    padding: 20vw 0vw 0vw 0vw;
+    color: #ffffff;
+}
+
+#responsive,
+#dataindsamling,
+#prototype,
+#designsprint a {
     text-align: center;
     display: block;
     color: #ffffff;
@@ -167,4 +178,60 @@ h2 {
 #responsive a:hover {
     color: #444;
     cursor: pointer;
+}
+
+#dataindsamling a:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+.opgaver #dataindsamling {
+    background-image: url(img/researchimg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.opgaver #prototype {
+    background-image: url(img/prototypeiphone.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#prototype a:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+#prototype h2 {
+    align-content: center;
+    display: block;
+    padding: 20vw 0vw 0vw 0vw;
+    color: #ffffff;
+}
+
+.opgaver #designsprint {
+    background-image: url(img/designsprint.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#designsprint a:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+#designsprint h2 {
+    align-content: center;
+    display: block;
+    padding: 20vw 0vw 0vw 0vw;
+    color: #ffffff;
 }
