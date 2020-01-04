@@ -24,7 +24,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000000;
+    background-color: #f1f1ee;
+
 
 
 }
@@ -33,6 +34,13 @@ img {
     width: 100%
 }
 
+@font-face {
+    font-family: montserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
 @font-face {
     font-family: 'Gilroy';
     src: url('Gilroy-Regular.eot');
@@ -68,12 +76,22 @@ img {
     font-weight: 900;
     font-style: normal;
 }
+*/
 
 .imgholder {
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-color: orange;
-    border: 2px dotted white;
+    border: 2px dotted #4a4a4a;
+    background-position: center center;
+
+}
+
+.wrapper {
+    display: flex;
+
+
 }
 
 
@@ -82,17 +100,22 @@ img {
 -------------------------------------------------------------*/
 
 nav {
-    background-color: black;
+    background-color: #f1f1ee;
+}
+
+nav a {
+    font-family: montserrat, sans-serif;
+    padding: 10px;
+    margin: 20px;
+    color: #4a4a4a;
+
 }
 
 a {
-    font-family: 'Gilroy';
-    padding: 10px;
-    margin: 20px;
-    color: white;
-
+    font-family: montserrat, sans-serif;
+    color: #4a4a4a;
+    text-decoration: none;
 }
-
 
 /*-------------------------------------------------------------
 3: TEKSTDESIGN
@@ -100,11 +123,11 @@ a {
 
 
 h1 {
-    font-family: 'Gilroy';
+    font-family: montserrat, sans-serif;
     font-weight: 900;
     font-size: 16vw;
     letter-spacing: -1vw;
-    color: white;
+    color: #4a4a4a;
     line-height: 13vw;
     margin: 0;
     padding: 0;
@@ -113,11 +136,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Gilroy';
+    font-family: montserrat, sans-serif;
     font-weight: 900;
     font-size: 8vw;
     letter-spacing: -1vw;
-    color: white;
+    color: #4a4a4a;
     line-height: 13vw;
     margin: 0;
     padding: 0;
@@ -125,13 +148,15 @@ h2 {
 }
 
 p {
-    color: white;
+    font-family: montserrat, sans-serif;
+    color: #4a4a4a;
     padding: 10vw;
 }
 
 ul,
 li {
-    color: white;
+    font-family: montserrat, sans-serif;
+    color: #4a4a4a;
 }
 
 
@@ -143,6 +168,7 @@ li {
     border: solid white 5px;
     margin: 3vw;
     padding: 10vw;
+    width: 100%;
 
 
 }
