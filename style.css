@@ -69,6 +69,13 @@ img {
     font-style: normal;
 }
 
+.imgholder {
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    border: 2px dotted white;
+}
+
 
 /*-------------------------------------------------------------
 2: MENU
