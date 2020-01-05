@@ -75,10 +75,19 @@ button a {
 
 }
 
+
 .col_ui img {
     width: 20vw;
     height: 20vw;
 }
+
+.frontpagesplash img {
+    height: 20vw;
+    width: 20vw;
+    padding-left: 2vw;
+    opacity: 100%;
+}
+
 
 
 /*-------------------------------------------------------------
@@ -147,6 +156,7 @@ a:hover {
 
 h1 {
     font-family: montserrat, sans-serif;
+    font-size: 36px;
     letter-spacing: 2px;
     text-align: left;
     font-weight: 700;
@@ -154,9 +164,18 @@ h1 {
 
 }
 
+.frontpagesplash h1 {
+    font-family: montserrat, sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
 h2 {
     font-family: montserrat, sans-serif;
-    font: 28px/1 'montserrat';
+    font-size: 24px;
     text-align: center;
     letter-spacing: 5px;
     color: #4a4a4a;
@@ -184,6 +203,11 @@ li {
 
 .txtfix {
     padding-left: 760px;
+}
+
+.frontpagesplash p {
+    margin-bottom: 10vw;
+
 }
 
 /*-------------------------------------------------------------
@@ -399,6 +423,7 @@ li {
     background-position: center center;
     position: relative;
     opacity: 70%;
+
 }
 
 .responsivesplash {
@@ -499,6 +524,13 @@ li {
 .col:hover {
     background-color: #ffb302;
     border-radius: 10px;
+
+}
+
+.frontpagesplash img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 
 }
 
@@ -666,6 +698,12 @@ li {
     nav img {
         height: 10vw;
         width: 10vw;
+    }
+
+    .frontpagesplash img {
+        height: 7.5vw;
+        width: 7.5vw;
+        padding-left: 2vw;
     }
 
     .col {
