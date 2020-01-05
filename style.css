@@ -390,6 +390,17 @@ li {
 
 }
 
+.frontpagesplash {
+    background-image: url(img/frontpagesplash.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 60vw;
+    background-position: center center;
+    position: relative;
+    opacity: 70%;
+}
+
 .responsivesplash {
     background-image: url(img/bauhaustest.svg);
     background-size: contain;
