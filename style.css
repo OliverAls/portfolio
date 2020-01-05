@@ -23,8 +23,6 @@ body {
     box-sizing: border-box;
     background-color: #f1f1ee;
 
-
-
 }
 
 /*
@@ -46,16 +44,6 @@ img {
     font-style: normal;
 }
 
-
-.imgholder {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-color: orange;
-    border: 2px dotted #4a4a4a;
-    background-position: center center;
-
-}
 
 .wrapper {
     display: flex;
@@ -86,6 +74,11 @@ button a {
     height: 10vw;
     color: #4a4a4a;
 
+}
+
+.col_ui img {
+    width: 20vw;
+    height: 20vw;
 }
 
 
@@ -184,6 +177,10 @@ li {
     text-align: left;
 }
 
+.txtfix {
+    padding-left: 760px;
+}
+
 /*-------------------------------------------------------------
 4: FORSIDE
 -------------------------------------------------------------*/
@@ -262,13 +259,31 @@ li {
 
 }
 
+.col_ui {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-grow: 100px;
+    justify-content: center;
+    text-align: center;
+
+}
+
 .col:hover {
     background-color: #ffb302;
     border-radius: 10px;
 
 }
 
-@media only screen and (min-width: 500px) {
+.col_ui img:hover {
+    /*    background-image: url(img/documenthover.svg);*/
+    background-color: #ffb302;
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+.col_ @media only screen and (min-width: 500px) {
     .col {
         height: 100vh;
 
@@ -290,6 +305,13 @@ li {
         height: 20vh;
 
     }
+
+    .col_ui img {
+        height: 7.5vw;
+        width: 7.5vw;
+    }
+
+
 
 
 }
