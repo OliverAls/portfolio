@@ -112,6 +112,11 @@ nav a {
     text-decoration: none;
 }
 
+nav img {
+    height: 20vw;
+    width: 20vw;
+}
+
 .centerheader {
     line-height: 23px;
     font-weight: 500;
@@ -305,6 +310,60 @@ li {
 
 }
 
+.col_privatsnak {
+
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin: 3vw;
+    flex-basis: 350px;
+    flex-grow: 1;
+    background-image: url(img/privatsnakicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+
+}
+
+.col_pilotvideo {
+
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin: 3vw;
+    flex-basis: 350px;
+    flex-grow: 1;
+    background-image: url(img/pilotvideoicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+
+}
+
+.col_redesign {
+
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin: 3vw;
+    flex-basis: 350px;
+    flex-grow: 1;
+    background-image: url(img/redesignicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+
+}
+
 
 
 .col_txt {
@@ -392,6 +451,21 @@ li {
     border-radius: 10px;
 }
 
+.col_privatsnak:hover {
+    background-color: #ffb302;
+    border-radius: 10px;
+}
+
+.col_pilotvideo:hover {
+    background-color: #ffb302;
+    border-radius: 10px;
+}
+
+.col_redesign:hover {
+    background-color: #ffb302;
+    border-radius: 10px;
+}
+
 
 .col_ui img:hover {
     /*    background-image: url(img/documenthover.svg);*/
@@ -413,9 +487,16 @@ li {
 
 
 
+
+
+
 }
 
 @media only screen and (min-width: 500px) {
+    nav img {
+        height: 17.5vw;
+        width: 17.5vw;
+    }
 
     .col {
         height: 20vh;
@@ -438,11 +519,27 @@ li {
     }
 
     .col_animation {
+        height: 100vh;
+    }
+
+    .col_privatsnak {
+        height: 100vh;
+    }
+
+    .col_pilotvideo {
+        height: 100vh;
+    }
+
+    .col_redesign {
         height: 100vh;
     }
 }
 
 @media only screen and (min-width: 800px) {
+    nav img {
+        height: 12.5vw;
+        width: 12.5vw;
+    }
 
     .col {
         height: 20vh;
@@ -467,6 +564,18 @@ li {
     }
 
     .col_animation {
+        height: 20vh;
+    }
+
+    .col_privatsnak {
+        height: 20vh;
+    }
+
+    .col_pilotvideo {
+        height: 20vh;
+    }
+
+    .col_redesign {
         height: 20vh;
     }
 
