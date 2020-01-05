@@ -251,6 +251,24 @@ li {
 
 }
 
+.col_prototype {
+
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin: 3vw;
+    flex-basis: 350px;
+    flex-grow: 1;
+    background-image: url(img/prototypeicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+
+}
+
 .col_txt {
     display: flex;
     flex-direction: column;
@@ -321,6 +339,11 @@ li {
     border-radius: 10px;
 }
 
+.col_prototype:hover {
+    background-color: #ffb302;
+    border-radius: 10px;
+}
+
 
 .col_ui img:hover {
     /*    background-image: url(img/documenthover.svg);*/
@@ -357,6 +380,10 @@ li {
     .col_data {
         height: 100vh;
     }
+
+    .col_prototype {
+        height: 100vh;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -372,6 +399,10 @@ li {
     }
 
     .col_data {
+        height: 20vh;
+    }
+
+    .col_prototype {
         height: 20vh;
     }
 
