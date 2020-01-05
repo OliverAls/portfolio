@@ -63,6 +63,7 @@ img {
 button {
     border: none;
     background-color: #f1f1ee;
+    padding: 5vw;
 
 }
 
@@ -258,10 +259,10 @@ li {
 }
 
 .col_ui {
-    display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
-    flex-grow: 0;
-    flex-grow: 100px;
+    flex-grow: 1;
+    flex-grow: 700px;
     justify-content: center;
     text-align: center;
 
