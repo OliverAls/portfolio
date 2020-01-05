@@ -115,6 +115,7 @@ nav a {
 nav img {
     height: 20vw;
     width: 20vw;
+    justify-content: center;
 }
 
 .centerheader {
@@ -390,13 +391,78 @@ li {
 }
 
 .responsivesplash {
-    background-image: url(img/responsiveimac.jpg);
+    background-image: url(img/bauhaustest.svg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     background-position: center center;
 }
+
+.datasplash {
+    background-image: url(img/dataicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+}
+
+.prototypesplash {
+    background-image: url(img/prototypeicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+}
+
+.sprintsplash {
+    background-image: url(img/sprinticon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+}
+
+.animationsplash {
+    background-image: url(img/animationicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+}
+
+.privatsnaksplash {
+    background-image: url(img/privatsnakicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+}
+
+.pilotvideosplash {
+    background-image: url(img/pilotvideoicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+}
+
+.redesignsplash {
+    background-image: url(img/redesignicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+}
+
+
 
 .colnohover {
     display: flex;
@@ -428,42 +494,58 @@ li {
 .col_bauhaus:hover {
     background-color: #ffb302;
     border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
 
 }
 
 .col_data:hover {
     background-color: #ffb302;
     border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .col_prototype:hover {
     background-color: #ffb302;
     border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .col_sprint:hover {
     background-color: #ffb302;
     border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .col_animation:hover {
     background-color: #ffb302;
     border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .col_privatsnak:hover {
     background-color: #ffb302;
     border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .col_pilotvideo:hover {
     background-color: #ffb302;
     border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .col_redesign:hover {
     background-color: #ffb302;
     border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 
@@ -471,7 +553,8 @@ li {
     /*    background-image: url(img/documenthover.svg);*/
     background-color: #ffb302;
     background-repeat: no-repeat;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 0.5s;
     border-radius: 10px;
 }
 
@@ -533,12 +616,45 @@ li {
     .col_redesign {
         height: 100vh;
     }
+
+    .responsivesplash {
+        height: 100vw;
+
+    }
+
+    .datasplash {
+        height: 100vw;
+    }
+
+    .prototypesplash {
+        height: 100vw;
+    }
+
+    .sprintsplash {
+        height: 100vw;
+    }
+
+    .animationsplash {
+        height: 100vw;
+    }
+
+    .privatsnaksplash {
+        height: 100vw;
+    }
+
+    .pilotvideosplash {
+        height: 100vw;
+    }
+
+    .redesignsplash {
+        height: 100vw;
+    }
 }
 
 @media only screen and (min-width: 800px) {
     nav img {
-        height: 12.5vw;
-        width: 12.5vw;
+        height: 10vw;
+        width: 10vw;
     }
 
     .col {
@@ -583,6 +699,39 @@ li {
     .col_ui img {
         height: 7.5vw;
         width: 7.5vw;
+    }
+
+    .responsivesplash {
+        height: 40vw;
+
+    }
+
+    .datasplash {
+        height: 40vw;
+    }
+
+    .prototypesplash {
+        height: 40vw;
+    }
+
+    .sprintsplash {
+        height: 40vw;
+    }
+
+    .animationsplash {
+        height: 40vw;
+    }
+
+    .privatsnaksplash {
+        height: 40vw;
+    }
+
+    .pilotvideosplash {
+        height: 40vw;
+    }
+
+    .redesignsplash {
+        height: 40vw;
     }
 
 
