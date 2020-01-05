@@ -269,6 +269,44 @@ li {
 
 }
 
+.col_sprint {
+
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin: 3vw;
+    flex-basis: 350px;
+    flex-grow: 1;
+    background-image: url(img/sprinticon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+
+}
+
+.col_animation {
+
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin: 3vw;
+    flex-basis: 350px;
+    flex-grow: 1;
+    background-image: url(img/animationicon2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+
+}
+
+
+
 .col_txt {
     display: flex;
     flex-direction: column;
@@ -344,6 +382,16 @@ li {
     border-radius: 10px;
 }
 
+.col_sprint:hover {
+    background-color: #ffb302;
+    border-radius: 10px;
+}
+
+.col_animation:hover {
+    background-color: #ffb302;
+    border-radius: 10px;
+}
+
 
 .col_ui img:hover {
     /*    background-image: url(img/documenthover.svg);*/
@@ -384,6 +432,14 @@ li {
     .col_prototype {
         height: 100vh;
     }
+
+    .col_sprint {
+        height: 100vh;
+    }
+
+    .col_animation {
+        height: 100vh;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -406,11 +462,20 @@ li {
         height: 20vh;
     }
 
+    .col_sprint {
+        height: 20vh;
+    }
+
+    .col_animation {
+        height: 20vh;
+    }
+
 
     .col_ui img {
         height: 7.5vw;
         width: 7.5vw;
     }
+
 
 
 }
