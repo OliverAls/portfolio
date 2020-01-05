@@ -215,6 +215,42 @@ li {
 
 }
 
+.col_bauhaus {
+
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin: 3vw;
+    flex-basis: 350px;
+    flex-grow: 1;
+    background-image: url(img/bauhaustest.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+
+}
+
+.col_data {
+
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+    margin: 3vw;
+    flex-basis: 350px;
+    flex-grow: 1;
+    background-image: url(img/dataicon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+
+}
+
 .col_txt {
     display: flex;
     flex-direction: column;
@@ -274,6 +310,18 @@ li {
 
 }
 
+.col_bauhaus:hover {
+    background-color: #ffb302;
+    border-radius: 10px;
+
+}
+
+.col_data:hover {
+    background-color: #ffb302;
+    border-radius: 10px;
+}
+
+
 .col_ui img:hover {
     /*    background-image: url(img/documenthover.svg);*/
     background-color: #ffb302;
@@ -285,26 +333,46 @@ li {
 
 
 @media only screen and (min-width: 450px) {
+
     .col {
         height: 100vh;
 
     }
 
 
+
+
 }
 
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 500px) {
+
     .col {
         height: 20vh;
+    }
 
+    .col_bauhaus {
+        height: 100vh;
+    }
 
+    .col_data {
+        height: 100vh;
     }
 }
 
 @media only screen and (min-width: 800px) {
+
     .col {
         height: 20vh;
 
+    }
+
+    .col_bauhaus {
+        height: 20vh;
+
+    }
+
+    .col_data {
+        height: 20vh;
     }
 
 
