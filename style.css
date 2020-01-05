@@ -7,9 +7,6 @@
 -------------------------------------------------------------*/
 
 
-
-
-
 /*-------------------------------------------------------------
 1: GENERELT
 -------------------------------------------------------------*/
@@ -30,12 +27,14 @@ body {
 
 }
 
+/*
 .section {
     max-width: 1200px;
     height: auto;
     padding: 30px 0;
 
 }
+*/
 
 img {
     width: 100%
@@ -60,7 +59,32 @@ img {
 
 .wrapper {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
 
+}
+
+.portfoliowrapper {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+button {
+    border: none;
+    background-color: #f1f1ee;
+
+}
+
+
+button a {
+    width: 10vw;
+    height: 10vw;
+    color: #4a4a4a;
 
 }
 
@@ -79,6 +103,14 @@ nav a {
     padding: 10px;
     margin: 20px;
     color: #4a4a4a;
+
+}
+
+a {
+    font-family: montserrat, sans-serif;
+    color: #4a4a4a;
+    text-decoration: none;
+
 
 }
 
@@ -117,33 +149,28 @@ a:hover {
 
 h1 {
     font-family: montserrat, sans-serif;
-    font-weight: 900;
-    font-size: 16vw;
-    letter-spacing: -1vw;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: 700;
     color: #4a4a4a;
-    line-height: 13vw;
-    margin: 0;
-    padding: 0;
-    text-align: center;
 
 }
 
 h2 {
     font-family: montserrat, sans-serif;
-    font-weight: 900;
-    font-size: 8vw;
-    letter-spacing: -1vw;
-    color: #4a4a4a;
-    line-height: 13vw;
-    margin: 0;
-    padding: 0;
+    font: 28px/1 'montserrat';
     text-align: center;
+    letter-spacing: 5px;
+    color: #4a4a4a;
 }
 
 p {
     font-family: montserrat, sans-serif;
     color: #4a4a4a;
-    padding: 10vw;
+    letter-spacing: 1px;
+    font-size: 12px;
+
+
 }
 
 ul,
@@ -153,6 +180,9 @@ li {
     list-style: none;
 }
 
+.txtlineleft {
+    text-align: left;
+}
 
 /*-------------------------------------------------------------
 4: FORSIDE
@@ -170,22 +200,6 @@ li {
 /*-------------------------------------------------------------
 5: PORTFOLIO
 -------------------------------------------------------------*/
-.sectionwrapper {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
-}
-
-/*
-.col {
-    flex-grow: 1;
-    flex-basis: 300px;
-    flex-direction: column;
-    justify-content: space-between;
-}
-*/
 
 .col {
 
@@ -205,7 +219,19 @@ li {
 
 }
 
-.sectionwrapper a {
+.col_txt {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-basis: 100px;
+    padding: 5vw;
+    width: 360px;
+
+}
+
+
+
+.portfoliowrapper a {
     display: block;
     width: 350px;
     line-height: 500px;
@@ -216,17 +242,13 @@ li {
 
 }
 
-
-
-
-img {
-    width: 100%
-}
-
-button {
-    border: none;
-    background-color: #f1f1ee;
-
+.responsivesplash {
+    background-image: url(img/responsiveimac.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
 }
 
 .colnohover {
@@ -268,4 +290,6 @@ button {
         height: 20vh;
 
     }
+
+
 }
