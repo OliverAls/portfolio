@@ -717,14 +717,17 @@ li {
     .col_bauhaus {
         height: 20vh;
 
+
     }
 
     .col_data {
         height: 20vh;
+
     }
 
     .col_prototype {
         height: 20vh;
+
     }
 
     .col_sprint {
@@ -755,35 +758,43 @@ li {
 
     .responsivesplash {
         height: 40vh;
+        margin-top: 10vw;
 
     }
 
     .datasplash {
         height: 40vh;
+        margin-top: 10vw;
     }
 
     .prototypesplash {
         height: 40vh;
+        margin-top: 10vw;
     }
 
     .sprintsplash {
         height: 40vh;
+        margin-top: 10vw;
     }
 
     .animationsplash {
         height: 40vh;
+        margin-top: 10vw;
     }
 
     .privatsnaksplash {
         height: 40vh;
+        margin-top: 10vw;
     }
 
     .pilotvideosplash {
         height: 40vh;
+        margin-top: 10vw;
     }
 
     .redesignsplash {
         height: 40vh;
+        margin-top: 10vw;
     }
 
 
