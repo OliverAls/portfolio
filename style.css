@@ -703,6 +703,10 @@ li {
         width: 10vw;
     }
 
+    .portfoliowrapper {
+        margin-top: 10vw;
+    }
+
     .frontpagesplash img {
         height: 7.5vw;
         width: 7.5vw;
