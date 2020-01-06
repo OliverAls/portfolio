@@ -104,6 +104,11 @@ nav a {
     padding: 10px;
     margin: 20px;
     color: #4a4a4a;
+    /*
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+*/
 
 }
 
@@ -119,6 +124,7 @@ nav a {
     font-family: montserrat, sans-serif;
     color: #4a4a4a;
     text-decoration: none;
+
 }
 
 nav img {
@@ -191,6 +197,8 @@ p {
 
 
 }
+
+
 
 ul,
 li {
