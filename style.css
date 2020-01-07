@@ -183,6 +183,14 @@ a:hover {
     color: #ffb302;
 }
 
+.pil img {
+    height: 10vw;
+    width: 10vh;
+    position: absolute;
+    margin-left: 5vw;
+
+}
+
 /*-------------------------------------------------------------
 3: TEKSTDESIGN
 -------------------------------------------------------------*/
@@ -654,6 +662,14 @@ li {
     border-radius: 10px;
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+.pil img:hover {
+    border-radius: 10px;
+    transform: scale(1.5);
+    transition: 0.5s;
+
+
 }
 
 h1::selection {
