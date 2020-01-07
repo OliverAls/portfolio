@@ -224,6 +224,27 @@ p {
 
 }
 
+figcaption {
+    font-family: montserrat, sans-serif;
+    color: #4a4a4a;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top: 1vw;
+    text-align: center;
+
+
+}
+
+#h1 figcaption {
+    font-family: montserrat, sans-serif;
+    color: #4a4a4a;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: start;
+    margin-top: 1vw;
+
+
+}
 
 
 ul,
@@ -552,14 +573,17 @@ li {
 }
 
 .col_ui {
+    display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     flex-grow: 1;
-    flex-grow: 700px;
+    flex-basis: 700px;
     justify-content: center;
     text-align: center;
 
 }
+
+
 
 .col:hover {
     background-color: #ffb302;
