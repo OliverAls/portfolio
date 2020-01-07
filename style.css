@@ -105,11 +105,14 @@ button a {
     height: 20vw;
 }
 
-.frontpagesplash img {
-    height: 20vw;
+#h1 img {
+    height: 20vh;
     width: 20vw;
     padding-left: 2vw;
     opacity: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+
 }
 
 
@@ -440,7 +443,7 @@ li {
 
 }
 
-.frontpagesplash {
+#frontpagesplash {
     background-image: url(img/frontpagesplash.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -771,6 +774,11 @@ footer .wrapper3 img {
         width: 17.5vw;
     }
 
+    #h1 img {
+        height: 20vh;
+        width: 20vw;
+    }
+
     .col {
         height: 20vh;
     }
@@ -855,10 +863,10 @@ footer .wrapper3 img {
         margin-top: 10vw;
     }
 
-    .frontpagesplash img {
-        height: 7.5vw;
-        width: 7.5vw;
-        padding-left: 2vw;
+    #h1 img {
+        height: 20vh;
+        width: 20vw;
+        padding-right: 10vw;
     }
 
     .col {
@@ -949,6 +957,9 @@ footer .wrapper3 img {
         margin-top: 10vw;
     }
 
+
+
+
     /*
     footer p {
         margin-left: 30vw;
@@ -1007,6 +1018,9 @@ footer .wrapper3 img {
         margin-top: 10vw;
     }
 
+
+
+
     /*
     footer p {
         margin-left: 30vw;
@@ -1045,4 +1059,45 @@ footer .wrapper3 img {
     100% {
         transform: scale(1, 1);
     }
+}
+
+
+.fadein_kf {
+    animation-name: fadein_kf;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein_kf {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.drej {
+    animation-name: drej_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes drej_kf {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.hide {
+    opacity: 0;
 }
