@@ -3,7 +3,7 @@ window.addEventListener("load", sidenVises);
 
 
 function sidenVises() {
-    console.log("siden vises");
+    console.log("Siden Vises");
 
 
     //TILFØJ HIDE FRA H1
@@ -20,6 +20,7 @@ function sidenVises() {
 //SET TIMER OG DEREFTER FJERN PULSE OG ADD FADE-IN
 
 setTimeout(function sidenVises() {
+    console.log("Tilføj Fade-In på tekst og knap")
     document.querySelector("#frontpagesplash").classList.remove("pulse_kf");
     document.querySelector("#h1").classList.add("fadein_kf");
 }, 3000);
