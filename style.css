@@ -560,9 +560,9 @@ li {
     width: 100vw;
     height: 100vh;
     background-color: orange;
-    background-image: url(img/placeholder.jpg);
+    background-image: url(img/aboutsplash.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
