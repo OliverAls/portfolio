@@ -553,7 +553,7 @@ li {
 
 .col_ui {
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
     flex-grow: 1;
     flex-grow: 700px;
     justify-content: center;
